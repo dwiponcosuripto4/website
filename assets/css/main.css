@@ -347,6 +347,7 @@ input, select, textarea {
 
 		.row > .col-6 {
 			width: 50%;
+			align-content: center;
 		}
 
 		.row > .off-6 {
@@ -1618,6 +1619,7 @@ input, select, textarea {
 
 				.row > .col-12-mobile {
 					width: 100%;
+					align-items: center;
 				}
 
 				.row > .off-12-mobile {
@@ -1755,6 +1757,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: auto;
 		}
 
 		.image.avatar48 {
@@ -2053,7 +2056,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		background: #ffffff url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2073,6 +2076,7 @@ input, select, textarea {
 		}
 
 		#header .bottom {
+			background-color: #000000;
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
@@ -2110,7 +2114,7 @@ input, select, textarea {
 
 		#logo h1 {
 			position: relative;
-			color: #fff;
+			color: #000000;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -2120,9 +2124,10 @@ input, select, textarea {
 			position: relative;
 			display: block;
 			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(0, 0, 0, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
+			font-weight: bold;
 		}
 
 		#logo .image {
@@ -2138,13 +2143,14 @@ input, select, textarea {
 	}
 
 		#nav ul li {
+			color: #000000;
 			padding-left: 0;
 		}
 
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(0, 0, 0, 0.5);
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2152,6 +2158,7 @@ input, select, textarea {
 				-webkit-transition: none;
 				-ms-transition: none;
 				transition: none;
+				font-weight: bold;
 			}
 
 				#nav ul li a span {
@@ -2163,7 +2170,7 @@ input, select, textarea {
 					#nav ul li a span:before {
 						position: absolute;
 						left: 0;
-						color: #9c0000;
+						color: #000000;
 						text-align: center;
 						width: 1.25em;
 						line-height: 1.75em;
@@ -2172,11 +2179,11 @@ input, select, textarea {
 				#nav ul li a.active {
 					background: rgba(0, 0, 0, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-					color: #fff;
+					color: #000000;
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #000000;
 					}
 
 /* Footer */
@@ -2255,11 +2262,11 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918e00;
-				background-image: url("../../images/planet.jpg");
+				background-image: url("https://wallpaperaccess.com/full/1524285.jpg");
 			}
 
 			#main > section.two {
-				background-color: #030a1b;
+				background-color: #000000;
 			}
 
 			#main > section.three {
@@ -2268,7 +2275,7 @@ input, select, textarea {
 			}
 
 			#main > section.four {
-				background-color: #1c0035;
+				background-color: #000000;
 			}
 
 /* Wide */
