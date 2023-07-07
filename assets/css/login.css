@@ -101,5 +101,6 @@ body {
   /* CSS yang ada sebelumnya */
   width: 100%; /* Lebar input sesuai dengan parentnya */
   max-width: 300px; /* Ubah ukuran maksimum input sesuai kebutuhan */
+  align-content: center;
 }
 
