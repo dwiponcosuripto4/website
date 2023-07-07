@@ -5,11 +5,12 @@ body {
     padding: 0;
     background-size: cover;
     background-image: url(images/Race\ Track\ Wall\ Mural\ Wallpaper.jpg);
+    font-size: 14px;
   }
   .login-logo {
     float: left;
-    width: 150px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-    margin-right: 20px;
+    width: 100px;
+    margin-right: 10px;
   }
   
   @keyframes gradientAnimation {
@@ -36,6 +37,10 @@ body {
     max-width: 400px;
     width: 100%;
     margin-right: 20px;/* Mengatur sudut diagonal pada sisi kiri */
+    margin: 0 auto; /* Menengahkan container login di tengah layar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
 
@@ -46,7 +51,6 @@ body {
 
   .form-group {
     margin-bottom: 15px;
-    text-align: center;
   }
 
   .form-group label {
@@ -98,3 +102,4 @@ body {
   width: 100%; /* Lebar input sesuai dengan parentnya */
   max-width: 300px; /* Ubah ukuran maksimum input sesuai kebutuhan */
 }
+
