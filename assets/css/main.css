@@ -146,6 +146,7 @@ input, select, textarea {
 	header {
 		color: white;
 		margin: 0 0 2em 0;
+		background-color: #000000af;
 	}
 
 		header > p {
