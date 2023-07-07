@@ -22,8 +22,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 200vh; 
     overflow: hidden; /* Menggunakan overflow: hidden agar elemen dengan sudut diagonal tidak keluar dari container */
+    max-width: 400px; /* Ubah ukuran maksimum container sesuai kebutuhan */
+    width: 90%; /* Menggunakan persentase agar container menyesuaikan lebar layar */
+    margin: 0 auto;
   }
   
   .login-form {
