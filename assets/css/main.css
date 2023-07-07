@@ -17,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -2077,7 +2077,7 @@ input, select, textarea {
 		}
 
 		#header .bottom {
-			background-color: #000000;
+			background-color: #d4d4d4;
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
@@ -2190,9 +2190,10 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
+		color: white;
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #720000;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2293,6 +2294,7 @@ input, select, textarea {
 
 			#header {
 				width: 300px;
+				background-color: #d4d4d4;
 			}
 
 		/* Footer */
@@ -2710,6 +2712,10 @@ input, select, textarea {
   
   .file-input-wrapper::before:hover {
 	background-color: #23527c;
+  }
+  video {
+	max-width: 100%;
+	height: auto;
   }
   
 	
