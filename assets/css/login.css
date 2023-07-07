@@ -46,6 +46,7 @@ body {
 
   .form-group {
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .form-group label {
@@ -62,13 +63,16 @@ body {
   }
 
   .form-group button {
-    width: 100%;
     padding: 8px;
     background-color: #4CAF50;
     border: none;
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
+    width: 100%; /* Lebar input sesuai dengan parentnya */
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
   }
 
   .form-group button:hover {
@@ -87,3 +91,10 @@ body {
       margin-bottom: 20px;
     }
   }
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  /* CSS yang ada sebelumnya */
+  width: 100%; /* Lebar input sesuai dengan parentnya */
+  max-width: 300px; /* Ubah ukuran maksimum input sesuai kebutuhan */
+}
