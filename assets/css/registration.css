@@ -95,7 +95,8 @@ body {
 }
 
 .form-group input[type="text"],
-.form-group input[type="password"] {
+.form-group input[type="password"],
+.form-group input[type="email"] {
 /* CSS yang ada sebelumnya */
 width: 100%; /* Lebar input sesuai dengan parentnya */
 max-width: 300px; /* Ubah ukuran maksimum input sesuai kebutuhan */
