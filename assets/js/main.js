@@ -124,11 +124,10 @@
 
 document.getElementById('submitButton').addEventListener('click', function(event) {
 	var player_name = document.getElementsByName('player_name')[0].value;
-	var team_name = document.getElementsByName('team_name')[0].value;
 	var captain_name = document.getElementsByName('captain_name')[0].value;
-	var game_genre = document.getElementsByName('game_genre')[0].value;
+	var kelas = document.getElementsByName('kelas')[0].value;
 	
-	if (player_name !== '' && team_name !== '' && captain_name !== '' && game_genre !== '') {
+	if (player_name !== '' && captain_name !== '' && kelas !== '') {
 		alert('Data telah terkirim dan tersimpan!');
 	} else {
 		event.preventDefault(); // Menghentikan pengiriman form jika ada input yang belum diisi
