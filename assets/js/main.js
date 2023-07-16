@@ -133,4 +133,5 @@ document.getElementById('submitButton').addEventListener('click', function(event
 		event.preventDefault(); // Menghentikan pengiriman form jika ada input yang belum diisi
 		alert('Harap lengkapi semua field yang diperlukan!');
 	}
+	window.location.href = window.location.href;
 });
